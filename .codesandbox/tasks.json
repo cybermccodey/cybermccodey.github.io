@@ -1,0 +1,28 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "build:watch": {
+      "name": "build:watch",
+      "command": "npm run build:watch",
+      "runAtStart": false
+    },
+    "$ npm install --global @tomphttp/bare-server-node": {
+      "name": "$ npm install --global @tomphttp/bare-server-node",
+      "command": "$ npm install --global @tomphttp/bare-server-node",
+      "runAtStart": true
+    }
+  }
+}
